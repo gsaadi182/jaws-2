@@ -1,0 +1,6 @@
+<launch>
+  <node name="thrust_mapper" pkg="jaws2_solver" type="thrust_mapper" />
+
+  <node name="thrust_cal" pkg="jaws2_hardware" type="thrust_casualty" />
+  
+</launch>
